@@ -13,7 +13,7 @@ function App() {
 
     setLoading(true)
 
-      axios.post('http://localhost:3333/mesage', {mesage: inputValue})
+      axios.post('https://back-dad.herokuapp.com/mesage', {mesage: inputValue})
       .then(() => setInputValue(''))
       .catch(err => console.log(err))
       .finally(() => setLoading(false))
