@@ -12,8 +12,7 @@ function App() {
       return;
 
     setLoading(true)
-
-      axios.post('https://back-dad.herokuapp.com/mesage', {mesage: inputValue})
+    axios.post('https://back-dad.herokuapp.com/mesage', {mesage: inputValue})
       .then(() => setInputValue(''))
       .catch(err => console.log(err))
       .finally(() => setLoading(false))
@@ -22,7 +21,10 @@ function App() {
 return(
   <div>
     <h1>Producer</h1>
-    <form onSubmit={createMessage}>
+    <form onSubmit={e => {
+      createMessage()
+      e.preventDefault()
+      }}>
       <input type="text" value={inputValue} onChange={e => setInputValue(e.target.value)}/>
       <input type='submit' hidden/> 
       <button type="submit">{loading ? <div class="loader"></div> : 'Enviar'}</button>
