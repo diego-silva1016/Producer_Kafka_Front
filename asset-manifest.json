@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d161f63.css",
-    "main.js": "/static/js/main.8ff83c05.js",
-    "index.html": "/index.html",
-    "main.1d161f63.css.map": "/static/css/main.1d161f63.css.map",
-    "main.8ff83c05.js.map": "/static/js/main.8ff83c05.js.map"
+    "main.css": "/Producer_Kafka_Front/static/css/main.1d161f63.css",
+    "main.js": "/Producer_Kafka_Front/static/js/main.8ff83c05.js",
+    "index.html": "/Producer_Kafka_Front/index.html",
+    "main.1d161f63.css.map": "/Producer_Kafka_Front/static/css/main.1d161f63.css.map",
+    "main.8ff83c05.js.map": "/Producer_Kafka_Front/static/js/main.8ff83c05.js.map"
   },
   "entrypoints": [
     "static/css/main.1d161f63.css",
