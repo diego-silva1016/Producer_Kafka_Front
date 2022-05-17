@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Producer_Kafka_Front/static/css/main.1d161f63.css",
-    "main.js": "/Producer_Kafka_Front/static/js/main.8ff83c05.js",
+    "main.js": "/Producer_Kafka_Front/static/js/main.ce02530b.js",
     "index.html": "/Producer_Kafka_Front/index.html",
     "main.1d161f63.css.map": "/Producer_Kafka_Front/static/css/main.1d161f63.css.map",
-    "main.8ff83c05.js.map": "/Producer_Kafka_Front/static/js/main.8ff83c05.js.map"
+    "main.ce02530b.js.map": "/Producer_Kafka_Front/static/js/main.ce02530b.js.map"
   },
   "entrypoints": [
     "static/css/main.1d161f63.css",
-    "static/js/main.8ff83c05.js"
+    "static/js/main.ce02530b.js"
   ]
 }
